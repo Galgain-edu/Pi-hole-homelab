@@ -2,7 +2,7 @@
 
 **Project by Mark Galvan (Hostname: `galvatron`)**
 
-This home lab project demonstrates the deployment of [Pi-hole](https://pi-hole.net/) on a lightweight Ubuntu Server VM using VirtualBox. It showcases practical Linux administration, bridged networking configuration, DNS-level ad blocking, and system service control — all relevant for Fleet Reliability Operations (FROps) roles.
+This home lab project demonstrates the deployment of [Pi-hole](https://pi-hole.net/) on a lightweight Ubuntu Server VM using VirtualBox. It showcases practical Linux administration, bridged networking configuration, DNS-level ad blocking, and system service control.
 
 ---
 
@@ -11,7 +11,7 @@ This home lab project demonstrates the deployment of [Pi-hole](https://pi-hole.n
 - Set up a DNS-based ad blocker using Pi-hole in a local virtualized lab environment
 - Explore Ubuntu Server administration and systemd tools
 - Practice network interface configuration using bridged adapters
-- Prepare for FROps interviews by building hands-on troubleshooting and bash experience
+
 
 ---
 
