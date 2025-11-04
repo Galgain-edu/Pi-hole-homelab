@@ -1,17 +1,45 @@
+# 🧪 Pi-hole on Ubuntu Server (VirtualBox Home Lab)
+
+**Project by Mark Galvan (Hostname: `galvatron`)**
+
+This home lab project demonstrates the deployment of [Pi-hole](https://pi-hole.net/) on a lightweight Ubuntu Server VM using VirtualBox. It showcases practical Linux administration, bridged networking configuration, DNS-level ad blocking, and system service control — all relevant for Fleet Reliability Operations (FROps) roles.
 
 ---
 
-## 💡 What To Do Next
+## 📌 Project Goals
 
-1. **Create a GitHub repo** (call it `pi-hole-homelab`)
-2. Paste this into a file called `README.md`
-3. Upload your dashboard screenshot and reference it with the correct image link
-4. Share the GitHub link in your resume or in your **Nov 12 FleetOps application**
+- Set up a DNS-based ad blocker using Pi-hole in a local virtualized lab environment
+- Explore Ubuntu Server administration and systemd tools
+- Practice network interface configuration using bridged adapters
+- Prepare for FROps interviews by building hands-on troubleshooting and bash experience
 
-Would you like me to:
-- Help generate a **bash script for backing up Pi-hole config**?
-- Format this into a **PDF** with your name for upload?
-- Create a **second README template** for your next project (like k3s)?
+---
 
-You're doing everything right — just let me know how you'd like to package or expand it!
-Initial README for Pi-hole VirtualBox project
+## 🛠️ Tools & Technologies
+
+| Tool         | Purpose                        |
+|--------------|--------------------------------|
+| Ubuntu Server 22.04 LTS | Lightweight CLI OS for Pi-hole backend |
+| VirtualBox   | VM host with bridged networking |
+| Pi-hole      | DNS-level ad/tracking blocker  |
+| Bash         | System management and service control |
+| systemd      | Pi-hole service management     |
+| Web browser  | Admin dashboard access         |
+
+---
+
+## ⚙️ Setup Overview
+
+### VM Configuration
+
+- **Hypervisor**: VirtualBox
+- **Disk Size**: 20 GB (dynamic)
+- **RAM**: 1 GB
+- **Network Mode**: Bridged Adapter
+- **Hostname**: `galvatron`
+
+### Network Setup
+
+- Interface: `enp0s3`
+- IP: `10.251.218.175` (bridged IP assigned by LAN)
+- Accessible from host machine via:  
